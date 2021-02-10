@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Latitude Comparisons</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Tesla</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse justify-content-end" id="navbarColor01">
+      <ul class="navbar-nav">
+       
+        <li class="nav-item">
+          <a class="nav-link" href="comparison.html">Visualization</a>
+        </li> 
+      </ul>
+      
+    </div>
+  </nav> 
+
+<main>
+	<div class="container">
+	  <h2>Comparison: Lets look how various models perfomed!</h2>
+	  <hr />
+    <p>But first, lets visualize and explore our DataSet</p>
+	  <div class="row">
+	    <div class="col-sm-12 col-md-6">
+	      <h3>Data Correlation Heatmap</h3>
+	      <figure class="visualizations-menu">
+	       <img src="Resources/assets/visualizations/correlation.PNG" class="img-fluid" />
+	      </figure>
+	    </div>
+	    <div class="col-sm-12 col-md-6">
+	      <h3>Stock Trend</h3>
+	      <figure class="visualizations-menu">
+	        <img src="Resources/assets/visualizations/normal.PNG" class="img-fluid" />
+	      </figure>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm-12 col-md-6">
+	      <h3>High Price Vs. Closing Price</h3>
+	      <figure class="visualizations-menu">
+	        <img src="Resources/assets/visualizations/hVc.PNG" class="img-fluid" />
+	      </figure>
+	    </div>
+	    <div class="col-sm-12 col-md-6">
+	      <h3>Low Price Vs. Closing Price</h3>
+	      <figure class="visualizations-menu">
+	        <img src="Resources/assets/visualizations/lVc.PNG" class="img-fluid" />
+	      </figure>
+	    </div>
+      <div class="col-sm-12 col-md-6">
+	      <h3>Opening Price Vs. Closing Price</h3>
+	      <figure class="visualizations-menu">
+	        <img src="Resources/assets/visualizations/oVc.PNG" class="img-fluid" />
+	      </figure>
+	    </div>
+    </div>
+
+  <hr/>
+    
+  <h2>Comparison Between Models</h2>
+  <hr/>
+    
+	  <div class="row">
+	    <div class="col-sm-12 col-md-6">
+
+	      <h3>Linear Regression</h3>
+	      <figure class="visualizations-menu">
+	       <img src="Resources/assets/visualizations/linear.PNG" class="img-fluid" />
+	      </figure>
+	    </div>
+	    <div class="col-sm-12 col-md-6">
+	      <h3>KNN</h3>
+	      <figure class="visualizations-menu">
+	        <img src="Resources/assets/visualizations/Knn.PNG" class="img-fluid" />
+	      </figure>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm-12 col-md-6">
+	      <h3>SVM</h3>
+	      <figure class="visualizations-menu">
+	        <img src="Resources/assets/visualizations/svm.PNG" class="img-fluid" />
+	      </figure>
+	    </div>
+	    <div class="col-sm-12 col-md-6">
+	      <h3>LSTM</h3>
+	      <figure class="visualizations-menu">
+	        <img src="Resources/assets/visualizations/ltsm.PNG" class="img-fluid" />
+	      </figure>
+	    </div>
+      
+	  </div>
+	</div>
+
+
+
+</main>
+<footer class="card-footer footer-position vis-footer">
+  <div class="container">
+  Sofia Mbega | Jahangir Dewan | Lawson James
+
+  </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
